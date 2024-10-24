@@ -1,0 +1,31 @@
+body{
+
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h4{
+        font-style: italic;
+        text-align: right;
+    }
+    h3{
+        a:link{
+            color: aliceblue;
+        }
+    }
+
+    p:first-of-type{
+        color: orange;
+        text-align: center;
+    }
+    
+    p:last-of-type{
+        text-align: right;
+    }
+
+
+}

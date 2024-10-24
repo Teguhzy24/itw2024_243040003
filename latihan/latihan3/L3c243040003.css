@@ -1,0 +1,48 @@
+
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    h1{
+
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    h4{
+        text-align: right;
+        font-style: italic;
+    }
+
+
+    h3{
+        
+        a:link{
+            color: aliceblue;
+        }
+        a:link:hover{
+            color: red;
+        }
+    }
+
+       
+    .p2{
+        
+        a:link{
+            color:blue
+            text underline="none"
+        }
+        a:link:hover{
+            color: rgb(255, 0, 0);
+        }
+    }
+       
+        
+        
+        
+        
+        
+        
+    
+    }

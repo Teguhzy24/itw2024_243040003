@@ -1,0 +1,30 @@
+.Hello:link{
+    color: gold;
+}
+
+.Hello:hover{
+    color: rgb(255, 8, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.Hello:active{
+    font-style: italic;
+}
+
+.Hello:visited{
+    color: red;
+}
+
+
+li:nth-child(3n) a {
+    color: black;
+}
+
+li:nth-child(even) a:hover{
+    color: red;
+}
+
+p:first-of-type{
+    color: red;
+}
