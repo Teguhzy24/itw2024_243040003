@@ -1,0 +1,13 @@
+    a {
+        background-color: plum;
+        width: 150px;
+        height: 100px;
+        display: inline-block;
+    }
+    h1, h2, p{
+        background-color: burlywood;
+    }
+    .navigasi li{
+        display:inline
+    }
+
