@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Parfume Arab</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Parfume  Shop Saudi Arabia</h2>
+                <p class="sub-headling"> Lattafa Fakhar</p>
+            </div>
+            <div class="feature feature-1">
+                <h4 class="price">IDR 399K</h4>
+                <p class="item">Lattafa Fakhar For Men</p>
+            </div>
+            <div class="feature feature-2">
+                <h4 class="price"> IDR 350K</h4>
+                <p class="item">Lattafa Fakhar For Women</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Parfume Shop Saudi Arabia</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">New Launches</a></li>
+                <li><a href="">Promotion</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+
+       <section class="services">
+        <div class="service">
+            <div class="icon"></div>
+            <h3>Shop</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea expedita aut qui, iure ipsa deserunt!</p>
+        </div>
+
+        <div class="service">
+            <div class="icon"></div>
+            <h3>Category</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea expedita aut qui, iure ipsa deserunt!</p>
+        </div>
+
+        
+        <div class="service">
+            <div class="icon"></div>
+            <h3>March</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea expedita aut qui, iure ipsa deserunt!</p>
+        </div>
+
+
+       </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/images (2).jpeg" alt="">
+        <img src="img/images (3).jpeg" alt="">
+        <img src="img/images (5).jpeg" alt="">
+        <img src="img/images (6).jpeg" alt="">
+        <img src="img/images (7).jpeg" alt="">
+        <img src="img/images (8).jpeg" alt="">
+        <img src="img/images (9).jpeg" alt="">
+
+      </section>
+       
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+        nav.classList.toggle('slide')
+        });
+    </script>
+</body>
+</html>
